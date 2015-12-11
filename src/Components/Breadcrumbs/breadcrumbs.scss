@@ -1,0 +1,30 @@
+/* breadcrumbs styles */
+
+.breadcrumbs {
+	width: 20%;
+	display: inline-block;
+	font-size: 14px;
+
+	&__arrow {
+		display: inline-block;
+		color: #757575;
+		font-size: 14px;
+		background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmklEQVQ4T7XTUQrDIAwGYHPD3WDrDToIXuIPbLuBO8GOmCK0kFGj8aF9ksZ8RGMomS/nfFPVn6q+ReRpY96abICZVyJ67f8KgGWE/AF1MzMXIrpHkRMwizSBGcQFokgXiCBDoIEsAMrRnesB21ZV/YrIw76N8CW2kisUaqOX7AKjsrtHmEk+VWCHqVe2W8ExzimlD4B1NIk1vgHsnGsRYXYsOAAAAABJRU5ErkJggg==");
+		-webkit-background-size: 100% auto;
+		background-size: 100% auto;
+	    background-repeat: no-repeat;
+	    background-position: center center;
+	    width: 8px;
+	    height: 8px;
+	    margin: 0 10px;
+	}
+
+	a {
+		color: #757575;
+		text-decoration: none;
+
+		&:hover {
+			color: #009688;
+		}
+	}
+}
